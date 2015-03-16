@@ -122,7 +122,7 @@ function htmlsync_add_column( $columns ) {
     $new = array();
 
     foreach( $columns as $key => $title ) {
-        if ( $key == 'author' ) { // Put the Thumbnail column before the Author column
+        if ( $key == 'author' ) { // Put the file name column before the author column
             $new['htmlsync_column'] = __( 'HTML Sync', 'htmlsync' );
         }
         $new[$key] = $title;
