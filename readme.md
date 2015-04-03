@@ -8,6 +8,8 @@ The content will be synced every hour, so if you make changes to the HTML file, 
 
 HTML Sync is limited to the page post type right now, but could easily be extended to support other post types as well.
 
+The plugin was originally created for [dizmo](https://www.dizmo.com/). 
+
 
 * * *
 
